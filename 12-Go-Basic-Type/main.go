@@ -2,7 +2,7 @@ package main
 
 import "log"
 
-// Basic types (Integers, Floats, Strings)
+// Basic types (Integers, Floats, Strings, Booleans)
 var myInt int = 12
 var myInt16 int16 = 13
 var myInt32 int32 = 14
@@ -23,4 +23,8 @@ func main() {
 	log.Println(myString)
 
 	myString = "Karamiani"
+
+	var myBoolean bool
+	myBoolean = true
+	log.Println(myBoolean)
 }
